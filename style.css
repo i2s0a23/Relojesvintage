@@ -1,0 +1,132 @@
+body{
+    background-color:darksalmon;
+    font-family: cursive;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+h1{
+    margin-top: 30px;
+    text-align: center;
+    color: darkred;
+}
+
+nav{
+    background-color: brown;
+    height: 80px;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    margin: 2%;
+    display: flex;
+}
+nav a{
+    color: burlywood;
+    text-decoration: none;
+    padding: 14px 15px;
+    display: block;
+    
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.Relojes-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    justify-content: center;
+
+}
+
+
+.Relojes{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color:indianred;
+    border-radius: 8px;
+    box-shadow: 0 15px 20px rgba(0,0,0);
+}
+
+.Relojes img{
+    width: 100%;
+    height:auto ;
+}
+
+.Relojes h3{
+    color: bisque;
+    font-size: 18px;
+    text-align: center;
+}
+
+.Relojes p{
+    color: darkred;
+    text-align: center;
+    font-weight: 600;
+}
+
+form{
+    max-width: 400px;
+    margin: 0%;
+    margin-left: 40px;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: 600;
+}
+
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: crimson;
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backgrown -color 35;
+}
+
+button:hover{
+    background-color: deeppink;
+    color: blueviolet;
+}
+
+
+
+
+@media(min-width:501px){
+    .Relojes{
+        width: 35%;
+    }
+    .Relojes img{
+        width:50%;
+    }
+}
+
+@media(min-width:801px){
+    .Relojes{
+        width: 20%;
+    }
+}
+
+@media(min-width:1201px){
+    .Relojes{
+        width: 10%;
+    }
+}
